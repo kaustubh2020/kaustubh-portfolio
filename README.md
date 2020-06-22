@@ -1,7 +1,7 @@
-<h1 align="center">kaustubh-folio</h1>
+
+  <a href="https://kaustubh-folio.netlify.app/"><h1 align="center">kaustubh-folio</h1></a>
  <h2 align="center">My personal portfolio made with Gatsby</h2>
  
- [Visit 🎉](https:https://kaustubh-folio.netlify.app/)
  
  <p align="center">
   <a href="https://kaustubh-folio.netlify.app/">
