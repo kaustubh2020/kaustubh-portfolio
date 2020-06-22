@@ -4,7 +4,7 @@ const ProjectData = [
     title: 'Kaustubh Jaiswal | FrontEnd Web-Developer',
     description: 'My personal portfolio with Gatsby.js',
     link: 'https://kaustubh-folio.netlify.com',
-    code: 'https://github.com/kaustubh2020/kaustubh-folio',
+    code: 'https://github.com/kaustubh2020/kaustubh-portfolio',
   },
   {
     id: '2',

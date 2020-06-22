@@ -64,7 +64,7 @@ const HomeIndex = () => {
             <li>
               <a href="#three" className="button">
                 Hire Me!{' '}
-                <span style={{ fontSize: "20px" }} role="img" aria-label="icon">
+                <span style={{ fontSize: '20px' }} role="img" aria-label="icon">
                   ✅
                 </span>
               </a>
@@ -110,9 +110,14 @@ const HomeIndex = () => {
 
           <ul className="actions">
             <li style={{ marginTop: '50px' }}>
-              <a href="https://github.com/kaustubh2020?tab=repositories" className="button" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/kaustubh2020?tab=repositories"
+                className="button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Repositories{' '}
-                <span style={{ fontSize: "20px" }} role="img" aria-label="icon">
+                <span style={{ fontSize: '20px' }} role="img" aria-label="icon">
                   💻
                 </span>
               </a>
@@ -129,7 +134,7 @@ const HomeIndex = () => {
             style={{ marginTop: '-8%', marginBottom: '-4%', marginLeft: '-5%' }}
           />
           <header className="major">
-            <h2 style={{ marginBottom: "20px" }}>Get in touch</h2>
+            <h2 style={{ marginBottom: '20px' }}>Get in touch</h2>
           </header>
           <p>
             Nuff scrolling! Talk to me.
@@ -138,7 +143,14 @@ const HomeIndex = () => {
           </p>
           <div className="row">
             <div className="6u 12u$(small)">
-              <form method="post" name="contact" data-netlify="true" netlify-honeypot="bot-field">
+              <form
+                method="post"
+                name="contact"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
