@@ -22,9 +22,14 @@ const Header = () => (
         </strong>
       </h1>
       <strong>
-        <span style={{ fontSize: "30px" }} role="img" aria-label="icon">
+        <span
+          className="wave"
+          style={{ fontSize: '30px' }}
+          role="img"
+          aria-label="icon"
+        >
           👋🏻
-      </span>
+        </span>
       </strong>
       <br />
       <h1>
