@@ -20,8 +20,10 @@ const Form = () => {
             data-netlify-honeypot="bot-field"
             style={mystyle}
         >
-            <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+
+            <input type="hidden" name="bot-field" ref={register} />
+            <input type="hidden" name="form-name" value="contact" ref={register} />
+
             <div className="row uniform 50%">
                 <div className="6u 12u$(xsmall)">
                     <input
