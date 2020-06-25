@@ -39,7 +39,7 @@ const Form = () => {
                     <textarea
                         name="message"
                         id="message"
-                        placeholder="Message (optiona)"
+                        placeholder="Message (optional)"
                         rows="4"
                     />
                 </div>
