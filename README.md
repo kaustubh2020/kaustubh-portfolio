@@ -15,8 +15,6 @@
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkaustubh_2020">
 </a>
 
-<a href="https://app.netlify.com/sites/kaustubh-folio/deploys"><img src="https://api.netlify.com/api/v1/badges/48b41705-e3a1-4716-9825-3ea1e9d8a274/deploy-status" alt="Netlify Status"></a>
-
 <a href="https://www.linkedin.com/in/kaustubh2020/">
 <img alt="Linkedin URL" src="https://img.shields.io/twitter/url?color=green&label=Linkedin&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkaustubh2020%2F">
 </a>
@@ -31,6 +29,9 @@
 
 <a href="mailto: kaustubhjaiswal200@gmail.com">
   <img alt="Gmail URL" src="https://img.shields.io/twitter/url?label=E-mail&logo=google%20messages&logoColor=blue&style=social&url=https%3A%2F%2Fmail.google.com%2F">
+</a>
+
+<a href="https://app.netlify.com/sites/kaustubh-folio/deploys"><img src="https://api.netlify.com/api/v1/badges/48b41705-e3a1-4716-9825-3ea1e9d8a274/deploy-status" alt="Netlify Status">
 </a>
 
 </p>
