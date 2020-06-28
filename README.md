@@ -11,10 +11,10 @@
 
 <p align="center">
 
-<a href="https://twitter.com/kaustubh_2020">
+<a align="center" href="https://twitter.com/kaustubh_2020">
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkaustubh_2020">
 </a>
 
-<a href="https://app.netlify.com/sites/kaustubh-folio/deploys"><img src="https://api.netlify.com/api/v1/badges/48b41705-e3a1-4716-9825-3ea1e9d8a274/deploy-status" alt="Netlify Status"></a>
+<a align="center" href="https://app.netlify.com/sites/kaustubh-folio/deploys"><img src="https://api.netlify.com/api/v1/badges/48b41705-e3a1-4716-9825-3ea1e9d8a274/deploy-status" alt="Netlify Status"></a>
 
 </p>
