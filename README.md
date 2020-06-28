@@ -8,10 +8,11 @@
     <img alt="kaustubh-folio" src="./Documents/banner.png" width="auto" />
   </a>
 </p>
+<br>
+<br>
+<p align="center">
 
-<p align="center" style="margin: 5px;">
-
-<a style="text-decoration: none; margin: 10px;" href="https://twitter.com/kaustubh_2020">
+<a href="https://twitter.com/kaustubh_2020">
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkaustubh_2020">
 </a>
 
