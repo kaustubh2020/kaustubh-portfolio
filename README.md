@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<p align="center" style="text-decoration: none;">
+<p align="center" style="margin: 5px;">
 
 <a href="https://twitter.com/kaustubh_2020">
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkaustubh_2020">
