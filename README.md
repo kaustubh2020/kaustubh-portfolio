@@ -11,7 +11,9 @@
 
 <p align="center">
 
+<a href="https://twitter.com/kaustubh_2020">
 <img alt="Twitter URL" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fkaustubh_2020">
+</a>
 
 <img alt="Netlify" src="https://img.shields.io/netlify/48b41705-e3a1-4716-9825-3ea1e9d8a274?label=Netlify&logo=Netlify&logoColor=lightblue&style=plastic">
 
