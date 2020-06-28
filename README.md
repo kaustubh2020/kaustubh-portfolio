@@ -9,7 +9,6 @@
   </a>
 </p>
 <br>
-<br>
 <p align="center">
 
 <a href="https://twitter.com/kaustubh_2020">
