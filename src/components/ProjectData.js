@@ -17,7 +17,7 @@ const ProjectData = [
     id: '3',
     title: 'Hacker News 360',
     description: 'A news app powered by the Hackernews API',
-    link: 'https://hackernews.netlify.app/',
+    link: 'https://hackernews360.netlify.app/',
     code: 'https://github.com/kaustubh2020/hackernews',
   },
   {
