@@ -109,6 +109,13 @@ const HomeIndex = () => {
             code={ProjectData[2].code}
           />
 
+          <ProjectCard
+            title={ProjectData[3].title}
+            description={ProjectData[3].description}
+            link={ProjectData[3].link}
+            code={ProjectData[3].code}
+          />
+
           <ul className="actions">
             <li style={{ marginTop: '50px' }}>
               <a
