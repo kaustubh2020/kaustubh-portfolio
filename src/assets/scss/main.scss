@@ -88,7 +88,9 @@ a {
   text-decoration: none;
   font-size: 18px;
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     border-bottom-color: transparent;
     color: _palette(accent1, bg) !important;
     text-decoration: none;
@@ -1185,12 +1187,16 @@ input[type='button'],
     }
   }
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     .nav-next,
     .nav-previous {
       opacity: 0.5;
 
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         opacity: 1;
       }
     }
@@ -1198,7 +1204,9 @@ input[type='button'],
     .closer {
       opacity: 0.5;
 
-      &:hover {
+      &:hover,
+      &:active,
+      &:focus {
         opacity: 1;
       }
     }
