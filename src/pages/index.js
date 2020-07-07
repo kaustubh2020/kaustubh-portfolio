@@ -63,7 +63,7 @@ const HomeIndex = () => {
           </p>
           <ul className="actions">
             <li>
-              <a href="#three" className="button">
+              <a href="#contact" className="button">
                 Hire Me!{' '}
                 <span style={{ fontSize: '20px' }} role="img" aria-label="icon">
                   ✅
@@ -133,7 +133,7 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="three" style={{ height: 'auto' }}>
+        <section id="contact" style={{ height: 'auto' }}>
           <img
             src={call}
             alt="call"
