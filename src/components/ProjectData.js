@@ -22,6 +22,13 @@ const ProjectData = [
   },
   {
     id: '4',
+    title: 'Falguni Swad Anusaar',
+    description: 'Food Blog',
+    link: 'https://swadanusaar.netlify.app/',
+    code: 'https://github.com/kaustubh2020/Swad-Anusaar',
+  },
+  {
+    id: '5',
     title: 'My Portfolio',
     description: 'My first portfolio website with HTML & CSS',
     link: 'https://kaustubhjaiswal.netlify.app/',
