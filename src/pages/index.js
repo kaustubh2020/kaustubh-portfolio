@@ -45,16 +45,26 @@ const HomeIndex = () => {
           <p>
             I am a{' '}
             <i>
-              <strong>Front-End Web Developer</strong>
+              <strong style={{backgroundColor: 'yellow'}}> Software Engineer </strong>
+              {' '}and{' '}
+              <strong style={{backgroundColor: 'yellow'}}> Frontend Web Developer </strong>
             </i>
             .
             <br /> I spend my time experimenting and researching the latest
             technology. I pledge to be a lifelong learner; it empowers me. One
             of my passions is{' '}
             <i>
-              <strong>Photography</strong>
+              <a href="https://www.instagram.com/kjkapture/">
+              <strong style={{backgroundColor: 'yellow'}}> Photography </strong>
+              </a>
             </i>
-            , I love to shoot and edit photos. I also love writing and giving
+            , I love to shoot and edit photos. I also love writing, playing{' '}
+            <i>
+              <a href="https://www.instagram.com/valorant.__.noobs/">
+              <strong style={{backgroundColor: 'yellow'}}> PC Games </strong>
+              </a>
+            </i>
+            {' '} and giving
             talks to share my thoughts and what I learn.
             <br />
             <strong>Tools I use:</strong>

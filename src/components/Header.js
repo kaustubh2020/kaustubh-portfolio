@@ -15,8 +15,9 @@ const Header = () => (
             children={[
               "Hey! I'm,",
               'Salut! Je suis,',
-              '¡Hola! Soy,',
+              'Hola! Soy,',
               'Hallo! Ich bin',
+              'नमस्कार! मैं हूँ',
             ]}
           />
         </strong>
