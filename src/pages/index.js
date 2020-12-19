@@ -6,16 +6,22 @@ import Layout from '../components/layout'
 import Form from '../components/Form'
 import Tools from '../components/Tools'
 
+import WorkExperience from '../components/WorkExperience'
+
 import ProjectData from '../components/ProjectData'
 import ProjectCard from '../components/ProjectsCard'
 
 import hellodog from '../assets/images/hellodog.gif'
+import office from '../assets/images/error.webp'
 import work from '../assets/images/work.webp'
 import call from '../assets/images/call.gif'
 
 const HomeIndex = () => {
   const siteTitle = 'Kaustubh Jaiswal | Portfolio'
-  const siteDescription = 'Front-End Web Developer'
+  const siteDescription = 'Software Engineer & Web Developer'
+
+  setTimeout(function(){ window.alert("💛 Be Safe, Wear Mask 😷"); }, 3000);
+
 
   return (
     <Layout>
@@ -23,6 +29,8 @@ const HomeIndex = () => {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
+
+      {/* About Section starts */}
 
       <div id="main" style={{ borderBottom: '5px solid #787878' }}>
         <section id="one" style={{ height: 'auto' }}>
@@ -47,7 +55,7 @@ const HomeIndex = () => {
             <i>
               <strong style={{backgroundColor: 'yellow'}}> Software Engineer </strong>
               {' '}and{' '}
-              <strong style={{backgroundColor: 'yellow'}}> Frontend Web Developer </strong>
+              <strong style={{backgroundColor: 'yellow'}}> Web Developer </strong>
             </i>
             .
             <br /> I spend my time experimenting and researching the latest
@@ -82,6 +90,39 @@ const HomeIndex = () => {
             </li>
           </ul>
         </section>
+
+        {/* About Sectoin ends */}
+
+
+        {/* Work Experience starts */}
+
+        <section id="two" style={{ height: 'auto' }}>
+          <img
+            src={office}
+            alt="work"
+            width="50%"
+            height="auto"
+            width="40%"
+            height="50%"
+            alt="error"
+            style={{
+              marginTop: '-8%',
+              marginBottom: '-10%',
+              marginLeft: '-10%',
+            }}
+          />
+          <header className="major">
+            <h2>Work Experience</h2>
+          </header>
+
+          <WorkExperience/>
+          
+        </section>
+
+        {/* Work Experience starts */}
+
+
+        {/* Projects Section starts */}
 
         <section id="two" style={{ height: 'auto' }}>
           <img
@@ -150,6 +191,11 @@ const HomeIndex = () => {
           </ul>
         </section>
 
+        {/* Projects Section ends */}
+
+
+        {/* Contact Section starts */}
+
         <section id="contact" style={{ height: 'auto' }}>
           <img
             src={call}
@@ -172,6 +218,10 @@ const HomeIndex = () => {
             </div>
           </div>
         </section>
+
+        {/* Contact Section starts */}
+
+
       </div>
     </Layout>
   )
