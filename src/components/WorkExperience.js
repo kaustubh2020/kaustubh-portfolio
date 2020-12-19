@@ -14,6 +14,17 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: '6px 16px',
   },
+  [theme.breakpoints.down('sm')]: {
+    paper: {
+      padding: '2px 5px',
+    },
+    paperHeading: {
+      fontSize: '16px',
+    },
+    paperSubtitle: {
+      fontSize: '11px',
+    },
+  },
 }));
 
 
@@ -37,10 +48,10 @@ export default function WorkExperience() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1" color="primary">
+            <Typography variant="h6" component="h1" color="primary" className={classes.paperHeading}>
               HCL Technologies
             </Typography>
-            <Typography variant="subtitle2" color="textPrimary">Software Engineer</Typography>
+            <Typography variant="subtitle2" color="textPrimary" className={classes.paperSubtitle}>Software Engineer</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>

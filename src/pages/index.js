@@ -51,7 +51,7 @@ const HomeIndex = () => {
             </strong>
           </header>
           <p>
-            I am a{' '}
+            I'm a{' '}
             <i>
               <strong style={{backgroundColor: 'yellow'}}> Software Engineer </strong>
               {' '}and{' '}
