@@ -34,15 +34,8 @@ const Header = () => (
       </strong>
       <br />
       <h1>
-        <strong>
-          <a
-            href="https://github.com/kaustubh2020"
-            rel="noopener noreferrer"
-            target="_blank"
-            style={{ fontSize: '30px' }}
-          >
-            Kaustubh Jaiswal
-          </a>
+        <strong style={{ fontSize: '30px' }}>
+          Kaustubh Jaiswal
         </strong>
       </h1>
       <br />

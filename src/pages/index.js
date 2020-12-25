@@ -100,11 +100,9 @@ const HomeIndex = () => {
           <img
             src={office}
             alt="work"
-            width="50%"
-            height="auto"
             width="40%"
             height="50%"
-            alt="error"
+            alt="office"
             style={{
               marginTop: '-8%',
               marginBottom: '-10%',

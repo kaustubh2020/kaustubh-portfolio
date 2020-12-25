@@ -112,8 +112,8 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "gatsby-starter-default",
-    "short_name": "starter",
+    "name": "kaustubh-jaiswal-portfolio",
+    "short_name": "Kaustubh Jaiswal",
     "start_url": "/",
     "background_color": "#663399",
     "theme_color": "#663399",
