@@ -1604,3 +1604,9 @@ span.wave {
     transform: rotate(0deg);
   }
 }
+
+a:active, a:focus, a:hover {
+  border-bottom-color: transparent;
+  color: yellow!important;
+  text-decoration: none;
+}

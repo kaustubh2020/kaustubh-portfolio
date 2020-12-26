@@ -104,7 +104,7 @@ const Footer = () => (
         <li>
           &copy; Made with{' '}
           <span role="img" aria-label="heart">
-            🧡
+            💛
           </span>{' '}
           by
         </li>
