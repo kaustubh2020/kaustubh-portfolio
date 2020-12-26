@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'kaustubh-jaiswal-portfolio',
+        name: 'Kaustubh Jaiswal | Portfolio',
         short_name: 'Kaustubh Jaiswal',
         start_url: '/',
         background_color: '#FFFF00',

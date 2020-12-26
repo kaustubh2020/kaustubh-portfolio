@@ -2,7 +2,7 @@ import React from 'react'
 import TextLoop from 'react-text-loop'
 
 import Footer from './Footer'
-import avatar from '../assets/images/avatar.jpg'
+import avatar from '../assets/images/avatar.webp'
 
 const Header = () => (
   <header id="header" style={{ height: '100vh' }}>
