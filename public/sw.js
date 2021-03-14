@@ -11,14 +11,14 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v4.3.1"});
+importScripts('workbox-v4.3.1/workbox-sw.js')
+workbox.setConfig({ modulePathPrefix: 'workbox-v4.3.1' })
 
-workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
+workbox.core.setCacheNameDetails({ prefix: 'gatsby-plugin-offline' })
 
-workbox.core.skipWaiting();
+workbox.core.skipWaiting()
 
-workbox.core.clientsClaim();
+workbox.core.clientsClaim()
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
@@ -27,40 +27,57 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-631bf20889218682ff84.js"
+    url: 'webpack-runtime-631bf20889218682ff84.js',
   },
   {
-    "url": "framework-868c53fff4771b0bde98.js"
+    url: 'framework-868c53fff4771b0bde98.js',
   },
   {
-    "url": "app-cf305aa0ca48703fc564.js"
+    url: 'app-cf305aa0ca48703fc564.js',
   },
   {
-    "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b76da70a6941bf19578fe2c27556c7cf"
+    url: 'offline-plugin-app-shell-fallback/index.html',
+    revision: 'b76da70a6941bf19578fe2c27556c7cf',
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
+    url:
+      'component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js',
   },
   {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "43232b01cc861c0701a3ece4bd67720b"
+    url: 'page-data/offline-plugin-app-shell-fallback/page-data.json',
+    revision: '43232b01cc861c0701a3ece4bd67720b',
   },
   {
-    "url": "page-data/app-data.json",
-    "revision": "415f63022956022954931e191c691473"
+    url: 'page-data/app-data.json',
+    revision: '415f63022956022954931e191c691473',
   },
   {
-    "url": "manifest.webmanifest",
-    "revision": "d182a26602cf827d61d046ddb6f352d9"
-  }
-].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+    url: 'manifest.webmanifest',
+    revision: 'd182a26602cf827d61d046ddb6f352d9',
+  },
+].concat(self.__precacheManifest || [])
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {})
 
-workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(
+  /(\.js$|\.css$|static\/)/,
+  new workbox.strategies.CacheFirst(),
+  'GET'
+)
+workbox.routing.registerRoute(
+  /^https?:.*\page-data\/.*\/page-data\.json/,
+  new workbox.strategies.StaleWhileRevalidate(),
+  'GET'
+)
+workbox.routing.registerRoute(
+  /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+  new workbox.strategies.StaleWhileRevalidate(),
+  'GET'
+)
+workbox.routing.registerRoute(
+  /^https?:\/\/fonts\.googleapis\.com\/css/,
+  new workbox.strategies.StaleWhileRevalidate(),
+  'GET'
+)
 
 /* global importScripts, workbox, idbKeyval */
 
@@ -77,7 +94,7 @@ const MessageAPI = {
     event.waitUntil(idbKeyval.set(`resources:${path}`, resources))
   },
 
-  clearPathResources: event => {
+  clearPathResources: (event) => {
     event.waitUntil(idbKeyval.clear())
   },
 
@@ -90,7 +107,7 @@ const MessageAPI = {
   },
 }
 
-self.addEventListener(`message`, event => {
+self.addEventListener(`message`, (event) => {
   const { gatsbyApi: api } = event.data
   if (api) MessageAPI[api](event, event.data)
 })
@@ -102,7 +119,7 @@ function handleAPIRequest({ event }) {
   const data = {}
 
   if (params.includes(`=`)) {
-    params.split(`&`).forEach(param => {
+    params.split(`&`).forEach((param) => {
       const [key, val] = param.split(`=`)
       data[key] = val
     })

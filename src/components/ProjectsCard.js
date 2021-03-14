@@ -35,16 +35,18 @@ export default function ImgMediaCard(props) {
         <CardActions>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             <Button size="small" color="secondary" variant="contained">
-              Demo {" "} <span role="img" aria-label="icon">
+              Demo{' '}
+              <span role="img" aria-label="icon">
                 👁‍🗨
-                </span>
+              </span>
             </Button>
           </a>
           <a href={props.code} target="_blank" rel="noopener noreferrer">
             <Button size="small" color="secondary" variant="outlined">
-              Source Code {" "} <span role="img" aria-label="icon">
+              Source Code{' '}
+              <span role="img" aria-label="icon">
                 📝
-                </span>
+              </span>
             </Button>
           </a>
         </CardActions>

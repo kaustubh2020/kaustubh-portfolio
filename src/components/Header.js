@@ -34,9 +34,7 @@ const Header = () => (
       </strong>
       <br />
       <h1>
-        <strong style={{ fontSize: '30px' }}>
-          Kaustubh Jaiswal
-        </strong>
+        <strong style={{ fontSize: '30px' }}>Kaustubh Jaiswal</strong>
       </h1>
       <br />
       <strong>

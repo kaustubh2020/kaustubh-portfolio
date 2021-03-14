@@ -20,8 +20,9 @@ const HomeIndex = () => {
   const siteTitle = 'Kaustubh Jaiswal | Portfolio'
   const siteDescription = 'Software Engineer & Web Developer'
 
-  setTimeout(function(){ window.alert("💛 Be Safe, Wear Mask 😷"); }, 3000);
-
+  setTimeout(function () {
+    window.alert('💛 Be Safe, Wear Mask 😷')
+  }, 3000)
 
   return (
     <Layout>
@@ -53,9 +54,15 @@ const HomeIndex = () => {
           <p>
             I'm a{' '}
             <i>
-              <strong style={{backgroundColor: 'yellow'}}> Software Engineer </strong>
-              {' '}and{' '}
-              <strong style={{backgroundColor: 'yellow'}}> Web Developer </strong>
+              <strong style={{ backgroundColor: 'yellow' }}>
+                {' '}
+                Software Engineer{' '}
+              </strong>{' '}
+              and{' '}
+              <strong style={{ backgroundColor: 'yellow' }}>
+                {' '}
+                Web Developer{' '}
+              </strong>
             </i>
             .
             <br /> I spend my time experimenting and researching the latest
@@ -63,17 +70,22 @@ const HomeIndex = () => {
             of my passions is{' '}
             <i>
               <a href="https://www.instagram.com/kjkapture/">
-              <strong style={{backgroundColor: 'yellow'}}> Photography </strong>
+                <strong style={{ backgroundColor: 'yellow' }}>
+                  {' '}
+                  Photography{' '}
+                </strong>
               </a>
             </i>
             , I love to shoot and edit photos. I also love writing, playing{' '}
             <i>
               <a href="https://www.instagram.com/valorant.__.noobs/">
-              <strong style={{backgroundColor: 'yellow'}}> PC Games </strong>
+                <strong style={{ backgroundColor: 'yellow' }}>
+                  {' '}
+                  PC Games{' '}
+                </strong>
               </a>
-            </i>
-            {' '} and giving
-            talks to share my thoughts and what I learn.
+            </i>{' '}
+            and giving talks to share my thoughts and what I learn.
             <br />
             <strong>Tools I use:</strong>
             <br />
@@ -92,7 +104,6 @@ const HomeIndex = () => {
         </section>
 
         {/* About Sectoin ends */}
-
 
         {/* Work Experience starts */}
 
@@ -113,12 +124,10 @@ const HomeIndex = () => {
             <h2>Work Experience</h2>
           </header>
 
-          <WorkExperience/>
-          
+          <WorkExperience />
         </section>
 
         {/* Work Experience starts */}
-
 
         {/* Projects Section starts */}
 
@@ -191,7 +200,6 @@ const HomeIndex = () => {
 
         {/* Projects Section ends */}
 
-
         {/* Contact Section starts */}
 
         <section id="contact" style={{ height: 'auto' }}>
@@ -218,8 +226,6 @@ const HomeIndex = () => {
         </section>
 
         {/* Contact Section starts */}
-
-
       </div>
     </Layout>
   )

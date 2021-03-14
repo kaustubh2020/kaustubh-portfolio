@@ -12,7 +12,7 @@ const LightTooltip = withStyles((theme) => ({
 
 const myStyle = {
   color: '#D0D0D0',
-  fontSize: '15px'
+  fontSize: '15px',
 }
 
 const Footer = () => (
