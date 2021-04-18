@@ -15,7 +15,7 @@ const ProjectData = [
   },
   {
     id: '3',
-    title: 'Weather App PWA',
+    title: 'Weather App PWA 🌦',
     description: 'PWA made by React.js to check weather',
     link: 'https://tempinfo.netlify.app/',
     code: 'https://github.com/kaustubh2020/weather-pwa-app',
