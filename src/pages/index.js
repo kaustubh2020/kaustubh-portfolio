@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import AnimatedCursor from "react-animated-cursor"
+import loadable from '@loadable/component'
 
 import Form from '../components/Form'
 import Tools from '../components/Tools'
@@ -24,14 +24,6 @@ const HomeIndex = () => {
 
   return (
     <Layout>
-      <AnimatedCursor
-      innerSize={15}
-      outerSize={20}
-      color='193, 11, 111'
-      outerAlpha={0.2}
-      innerScale={0.7}
-      outerScale={3}
-      />
       <Helmet>
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
