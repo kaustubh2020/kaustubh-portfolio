@@ -3,8 +3,6 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import loadable from '@loadable/component'
-
 import Form from '../components/Form'
 import Tools from '../components/Tools'
 
