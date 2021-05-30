@@ -109,7 +109,6 @@ const HomeIndex = () => {
             alt="work"
             width="40%"
             height="50%"
-            alt="work"
             style={{
               marginTop: '-8%',
               marginBottom: '-10%',

@@ -4,17 +4,16 @@ import { withStyles } from '@material-ui/core/styles'
 import Tooltip from '@material-ui/core/Tooltip'
 
 import CSS from '../assets/images/Tools/CSS.svg'
-import Figma from '../assets/images/Tools/Figma.svg'
 import Gatsby from '../assets/images/Tools/Gatsby.svg'
 import Git from '../assets/images/Tools/Git.svg'
 import HTML from '../assets/images/Tools/HTML.svg'
+import jQuery from '../assets/images/Tools/jQuery.svg'
 import Java from '../assets/images/Tools/Java.svg'
 import Javascript from '../assets/images/Tools/Javascript.svg'
 import Netlify from '../assets/images/Tools/Netlify.svg'
 import Office from '../assets/images/Tools/Office.svg'
 import Photoshop from '../assets/images/Tools/Photoshop.svg'
 import Reactjs from '../assets/images/Tools/Reactjs.svg'
-import XD from '../assets/images/Tools/XD.svg'
 
 const LightTooltip = withStyles((theme) => ({
   tooltip: {
@@ -27,6 +26,7 @@ const LightTooltip = withStyles((theme) => ({
 
 const mystyle = {
   margin: '10px',
+  width: '60px'
 }
 
 const Tools = () => {
@@ -56,6 +56,10 @@ const Tools = () => {
         <img src={CSS} alt="icon" />
       </LightTooltip>
 
+      <LightTooltip style={mystyle} title="jQuery" placement="top">
+        <img src={jQuery} alt="icon" />
+      </LightTooltip>
+
       <LightTooltip style={mystyle} title="Git" placement="top">
         <img src={Git} alt="icon" />
       </LightTooltip>
@@ -68,17 +72,10 @@ const Tools = () => {
         <img src={Office} alt="icon" />
       </LightTooltip>
 
-      <LightTooltip style={mystyle} title="Photoshop" placement="top">
+      <LightTooltip style={mystyle} title="Adobe Photoshop" placement="top">
         <img src={Photoshop} alt="icon" />
       </LightTooltip>
 
-      <LightTooltip style={mystyle} title="XD" placement="top">
-        <img src={XD} alt="icon" />
-      </LightTooltip>
-
-      <LightTooltip style={mystyle} title="Figma" placement="top">
-        <img src={Figma} alt="icon" />
-      </LightTooltip>
     </div>
   )
 }
