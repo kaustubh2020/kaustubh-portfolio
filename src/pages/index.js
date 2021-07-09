@@ -8,8 +8,9 @@ import Tools from '../components/Tools'
 
 import WorkExperience from '../components/WorkExperience'
 
-import ProjectData from '../components/ProjectData'
-import ProjectCard from '../components/ProjectsCard'
+//import ProjectData from '../components/ProjectData'
+//import ProjectCard from '../components/ProjectsCard'
+import FetchProjects from '../components/FetchProjects'
 
 import hellodog from '../assets/images/hellodog.gif'
 import office from '../assets/images/error.webp'
@@ -142,46 +143,7 @@ const HomeIndex = () => {
             <h2>Projects</h2>
           </header>
 
-          <ProjectCard
-            title={ProjectData[0].title}
-            description={ProjectData[0].description}
-            link={ProjectData[0].link}
-            code={ProjectData[0].code}
-          />
-          <ProjectCard
-            title={ProjectData[1].title}
-            description={ProjectData[1].description}
-            link={ProjectData[1].link}
-            code={ProjectData[1].code}
-          />
-
-          <ProjectCard
-            title={ProjectData[2].title}
-            description={ProjectData[2].description}
-            link={ProjectData[2].link}
-            code={ProjectData[2].code}
-          />
-
-          <ProjectCard
-            title={ProjectData[3].title}
-            description={ProjectData[3].description}
-            link={ProjectData[3].link}
-            code={ProjectData[3].code}
-          />
-
-          <ProjectCard
-            title={ProjectData[4].title}
-            description={ProjectData[4].description}
-            link={ProjectData[4].link}
-            code={ProjectData[4].code}
-          />
-
-          <ProjectCard
-            title={ProjectData[5].title}
-            description={ProjectData[5].description}
-            link={ProjectData[5].link}
-            code={ProjectData[5].code}
-          />
+          <FetchProjects />
 
           <ul className="actions">
             <li style={{ marginTop: '50px' }}>

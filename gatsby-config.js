@@ -12,8 +12,8 @@ module.exports = {
         name: 'Kaustubh Jaiswal | Portfolio',
         short_name: 'Kaustubh Jaiswal',
         start_url: '/',
-        background_color: '#FFFF00',
-        theme_color: '#FFFF00',
+        background_color: '#FDC307',
+        theme_color: '#FDC307',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },

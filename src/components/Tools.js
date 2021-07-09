@@ -14,6 +14,7 @@ import Netlify from '../assets/images/Tools/Netlify.svg'
 import Office from '../assets/images/Tools/Office.svg'
 import Photoshop from '../assets/images/Tools/Photoshop.svg'
 import Reactjs from '../assets/images/Tools/Reactjs.svg'
+import MongoDB from '../assets/images/Tools/MongoDB.svg'
 
 const LightTooltip = withStyles((theme) => ({
   tooltip: {
@@ -26,7 +27,7 @@ const LightTooltip = withStyles((theme) => ({
 
 const mystyle = {
   margin: '10px',
-  width: '60px'
+  width: '60px',
 }
 
 const Tools = () => {
@@ -46,6 +47,10 @@ const Tools = () => {
 
       <LightTooltip style={mystyle} title="Reactjs" placement="top">
         <img src={Reactjs} alt="icon" />
+      </LightTooltip>
+      
+      <LightTooltip style={mystyle} title="MongoDB" placement="top">
+        <img src={MongoDB} alt="icon" />
       </LightTooltip>
 
       <LightTooltip style={mystyle} title="HTML" placement="top">
@@ -75,7 +80,6 @@ const Tools = () => {
       <LightTooltip style={mystyle} title="Adobe Photoshop" placement="top">
         <img src={Photoshop} alt="icon" />
       </LightTooltip>
-
     </div>
   )
 }

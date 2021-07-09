@@ -18,10 +18,10 @@ const Form = () => {
 
       <div className="row uniform 50%">
         <div className="6u 12u$(xsmall)">
-          <input type="text" name="name" id="name" placeholder="Name" />
+          <input type="text" name="name" id="name" placeholder="Name" required/>
         </div>
         <div className="6u 12u$(xsmall)">
-          <input type="email" name="email" id="email" placeholder="Em@il" />
+          <input type="email" name="email" id="email" placeholder="Em@il" required/>
         </div>
         <div className="12u">
           <textarea
@@ -29,6 +29,7 @@ const Form = () => {
             id="message"
             placeholder="Message (optional)"
             rows="4"
+            required
           />
         </div>
       </div>

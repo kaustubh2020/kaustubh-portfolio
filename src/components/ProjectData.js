@@ -1,3 +1,5 @@
+//NOTE: Using MongoDB to fetch list of Projects; not using this file anymore
+
 const ProjectData = [
   {
     id: '0',
