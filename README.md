@@ -1,6 +1,6 @@
 <a target="_blank" rel="noopener noreferrer" href="https://kaustubh-folio.netlify.app/"><h1 align="center">kaustubh-folio</h1></a>
 
- <h2 align="center">My personal portfolio made with Gatsby</h2>
+ <h2 align="center">My personal portfolio made with GatsbyJS, MongoDB Atlas & Realm</h2>
  
  
  <p align="center">
