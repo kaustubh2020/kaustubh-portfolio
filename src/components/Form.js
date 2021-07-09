@@ -29,7 +29,6 @@ const Form = () => {
             id="message"
             placeholder="Message (optional)"
             rows="4"
-            required
           />
         </div>
       </div>
