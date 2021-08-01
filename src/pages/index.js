@@ -90,10 +90,10 @@ const HomeIndex = () => {
           </p>
           <ul className="actions">
             <li>
-              <a href="#contact" className="button">
-                Hire Me!{' '}
+              <a href="https://docs.google.com/document/d/1LTTH1tzAQMGp1FhdARUdHlM3ouNSVNvIY4xH3SqOJaw/edit?usp=sharing" className="button">
+                Resume{' '}
                 <span style={{ fontSize: '20px' }} role="img" aria-label="icon">
-                  ✅
+                  📃
                 </span>
               </a>
             </li>
