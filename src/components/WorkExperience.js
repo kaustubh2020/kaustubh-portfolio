@@ -119,11 +119,11 @@ export default function WorkExperience() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textPrimary">
-            Working, till date @{year}
+            Working till date, {year}
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot color="secondary"></TimelineDot>
+          <TimelineDot color="primary"></TimelineDot>
         </TimelineSeparator>
         <TimelineContent></TimelineContent>
       </TimelineItem>
