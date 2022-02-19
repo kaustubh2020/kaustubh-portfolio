@@ -53,7 +53,7 @@ const HomeIndex = () => {
             <i>
               <strong style={{ backgroundColor: 'yellow' }}>
                 {' '}
-                Software Engineer{' '}
+                Senior Software Engineer{' '}
               </strong>{' '}
               and{' '}
               <strong style={{ backgroundColor: 'yellow' }}>
