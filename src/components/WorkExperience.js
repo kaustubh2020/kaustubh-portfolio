@@ -64,6 +64,38 @@ export default function WorkExperience() {
         </TimelineContent>
       </TimelineItem>
 
+      {/* Second Experience */}
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" color="textPrimary">
+            15 September, 2021
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="primary"></TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography
+              variant="h6"
+              component="h1"
+              color="primary"
+              className={classes.paperHeading}
+            >
+              HCL Technologies
+            </Typography>
+            <Typography
+              variant="subtitle2"
+              color="textPrimary"
+              className={classes.paperSubtitle}
+            >
+              Senior Software Engineer
+            </Typography>
+          </Paper>
+        </TimelineContent>
+      </TimelineItem>
+
       {/* dummy for extra line */}
       <TimelineItem>
         <TimelineSeparator>
