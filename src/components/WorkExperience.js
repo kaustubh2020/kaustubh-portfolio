@@ -30,6 +30,9 @@ const useStyles = makeStyles((theme) => ({
 export default function WorkExperience() {
   const classes = useStyles()
 
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <Timeline align="alternate">
       {/* First Experience */}
@@ -40,7 +43,7 @@ export default function WorkExperience() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot color="primary"></TimelineDot>
+          <TimelineDot color="secondary"></TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -48,7 +51,7 @@ export default function WorkExperience() {
             <Typography
               variant="h6"
               component="h1"
-              color="primary"
+              color="secondary"
               className={classes.paperHeading}
             >
               HCL Technologies
@@ -62,6 +65,14 @@ export default function WorkExperience() {
             </Typography>
           </Paper>
         </TimelineContent>
+      </TimelineItem>
+
+      {/* dummy for extra line */}
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent></TimelineContent>
       </TimelineItem>
 
       {/* Second Experience */}
@@ -108,7 +119,7 @@ export default function WorkExperience() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textPrimary">
-            Working, till date
+            Working, till date @{year}
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
