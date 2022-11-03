@@ -90,7 +90,7 @@ const HomeIndex = () => {
           </p>
           <ul className="actions">
             <li>
-              <a href="https://docs.google.com/document/d/1LTTH1tzAQMGp1FhdARUdHlM3ouNSVNvIY4xH3SqOJaw/edit?usp=sharing" className="button">
+              <a href="https://docs.google.com/document/d/13oDZwtVCQu-1Tg7AWEdKZpceu7q_ifS5vXLKT0S4ozQ/edit?usp=drivesdk" className="button">
                 Resume{' '}
                 <span style={{ fontSize: '20px' }} role="img" aria-label="icon">
                   📃
