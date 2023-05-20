@@ -18,6 +18,7 @@ const Header = () => (
               'Hola! Soy,',
               'Hallo! Ich bin',
               'नमस्कार! मैं हूँ',
+              'హలో, నేను',
             ]}
           />
         </strong>
