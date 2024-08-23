@@ -39,7 +39,7 @@ export default function WorkExperience() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textPrimary">
-            15 September, 2020
+            2020 - 2021
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -79,11 +79,11 @@ export default function WorkExperience() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textPrimary">
-            15 September, 2021
+            2021 - 2023
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot color="primary"></TimelineDot>
+          <TimelineDot color="secondary"></TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>
@@ -91,7 +91,7 @@ export default function WorkExperience() {
             <Typography
               variant="h6"
               component="h1"
-              color="primary"
+              color="secondary"
               className={classes.paperHeading}
             >
               HCL Technologies
@@ -115,18 +115,38 @@ export default function WorkExperience() {
         <TimelineContent></TimelineContent>
       </TimelineItem>
 
-      {/* Working Till Date */}
+      {/* Third Experience */}
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textPrimary">
-            Working till date, {year}
+            2023 - Present
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineDot color="primary"></TimelineDot>
+          <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent></TimelineContent>
+        <TimelineContent>
+          <Paper elevation={3} className={classes.paper}>
+            <Typography
+              variant="h6"
+              component="h1"
+              color="primary"
+              className={classes.paperHeading}
+            >
+              HCLTech
+            </Typography>
+            <Typography
+              variant="subtitle2"
+              color="textPrimary"
+              className={classes.paperSubtitle}
+            >
+              Lead Engineer
+            </Typography>
+          </Paper>
+        </TimelineContent>
       </TimelineItem>
+
     </Timeline>
   )
 }
