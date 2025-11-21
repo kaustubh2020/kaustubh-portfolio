@@ -1,12 +1,12 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 import Layout from '../components/layout'
 
 import Form from '../components/Form'
 import Tools from '../components/Tools'
 
-import WorkExperience from '../components/WorkExperience'
+
 
 //import ProjectData from '../components/ProjectData'
 //import ProjectCard from '../components/ProjectsCard'
@@ -84,9 +84,7 @@ const HomeIndex = () => {
             </i>{' '}
             and giving talks to share my thoughts and what I learn.
             <br />
-            <strong>Tools I use:</strong>
             <br />
-            <Tools />
           </p>
           <ul className="actions">
             <li>
@@ -120,7 +118,14 @@ const HomeIndex = () => {
             <h2>Work Experience</h2>
           </header>
 
-          <WorkExperience />
+          <p>
+            I possess a diverse skillset ranging from frontend development with React, Gatsby, and modern JavaScript to backend technologies like Java and MongoDB. I am also proficient in version control with Git and deployment on platforms like Netlify. Additionally, I have experience with design tools such as Adobe Photoshop, allowing me to bridge the gap between design and development.
+          </p>
+          <p>
+            <strong>Tools I use:</strong>
+            <br />
+            <Tools />
+          </p>
         </section>
 
         {/* Work Experience starts */}

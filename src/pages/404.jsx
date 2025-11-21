@@ -1,5 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
 import Layout from '../components/layout'
 
 import error from '../assets/images/error.webp'
@@ -22,9 +23,9 @@ const NotFoundPage = () => {
             🙄
           </span>
         </h1>
-        <a href="/" className="button" style={{ marginBottom: '10px' }}>
+        <Link to="/" className="button" style={{ marginBottom: '10px' }}>
           Goto Homepage
-        </a>
+        </Link>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
         <img src={error} width="40%" height="50%" alt="error" />
       </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import ProjectsCard from './ProjectsCard'
 
-const url = process.env.GATSBY_MONGODB_REALM_API
+const url = import.meta.env.VITE_MONGODB_REALM_API
 
 class FetchProjects extends Component {
   constructor(props) {
