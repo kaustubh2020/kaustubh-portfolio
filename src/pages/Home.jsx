@@ -10,7 +10,7 @@ import Tools from '../components/Tools'
 
 //import ProjectData from '../components/ProjectData'
 //import ProjectCard from '../components/ProjectsCard'
-import FetchProjects from '../components/FetchProjects'
+import Projects from '../components/Projects'
 
 import hellodog from '../assets/images/hellodog.gif'
 import office from '../assets/images/error.webp'
@@ -148,7 +148,7 @@ const HomeIndex = () => {
             <h2>Projects</h2>
           </header>
 
-          <FetchProjects />
+          <Projects />
 
           <ul className="actions">
             <li style={{ marginTop: '50px' }}>

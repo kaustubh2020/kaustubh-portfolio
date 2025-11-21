@@ -1,4 +1,4 @@
-//NOTE: Using MongoDB to fetch list of Projects; not using this file anymore
+// Static project data
 
 const ProjectData = [
   {
