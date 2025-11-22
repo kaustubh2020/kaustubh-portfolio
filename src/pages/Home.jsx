@@ -5,8 +5,7 @@ import Layout from '../components/layout'
 
 import Form from '../components/Form'
 import Tools from '../components/Tools'
-
-
+import Skills from '../components/Skills'
 
 //import ProjectData from '../components/ProjectData'
 //import ProjectCard from '../components/ProjectsCard'
@@ -83,8 +82,6 @@ const HomeIndex = () => {
               </a>
             </i>{' '}
             and giving talks to share my thoughts and what I learn.
-            <br />
-            <br />
           </p>
           <ul className="actions">
             <li>
@@ -100,8 +97,7 @@ const HomeIndex = () => {
 
         {/* About Sectoin ends */}
 
-        {/* Work Experience starts */}
-
+        {/* Skills Section starts */}
         <section id="two" style={{ height: 'auto' }}>
           <img
             src={office}
@@ -114,21 +110,9 @@ const HomeIndex = () => {
               marginLeft: '-10%',
             }}
           />
-          <header className="major">
-            <h2>Work Experience</h2>
-          </header>
-
-          <p>
-            I possess a diverse skillset ranging from frontend development with React, Gatsby, and modern JavaScript to backend technologies like Java and MongoDB. I am also proficient in version control with Git and deployment on platforms like Netlify. Additionally, I have experience with design tools such as Adobe Photoshop, allowing me to bridge the gap between design and development.
-          </p>
-          <p>
-            <strong>Tools I use:</strong>
-            <br />
-            <Tools />
-          </p>
+          <Skills />
         </section>
-
-        {/* Work Experience starts */}
+        {/* Skills Section ends */}
 
         {/* Projects Section starts */}
 
