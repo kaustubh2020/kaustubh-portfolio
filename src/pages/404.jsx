@@ -3,8 +3,6 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import Layout from '../components/layout'
 
-import error from '../assets/images/error.webp'
-
 const NotFoundPage = () => {
   const siteTitle = 'Kaustubh Jaiswal | Page not found'
   const siteDescription = 'Error 404'
@@ -27,7 +25,6 @@ const NotFoundPage = () => {
           Goto Homepage
         </Link>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-        <img src={error} width="40%" height="50%" alt="error" />
       </div>
     </Layout>
   )
